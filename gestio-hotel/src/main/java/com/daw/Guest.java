@@ -11,9 +11,11 @@ public class Guest extends Person{
         this.nacionality = nacionality;
     }
 
-    public Guest(String nacionality) {
+    public Guest(String name, String identifier, String nacionality) {
+        super(name, identifier);
         this.nacionality = nacionality;
     }
 
+    
     
 }

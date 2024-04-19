@@ -19,11 +19,13 @@ public class Manager extends Person {
     public void setExperience(int experience) {
         this.experience = experience;
     }
-    
-    public Manager(LocalDate startDate, int experience) {
+    public Manager(String name, String identifier, LocalDate startDate, int experience) {
+        super(name, identifier);
         this.startDate = startDate;
         this.experience = experience;
     }
+    
+   
     
 
     

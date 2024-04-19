@@ -12,6 +12,13 @@ public class Hotel {
 
     private Manager manager;
 
+    public Manager getManager() {
+        return manager;
+    }
+    public void setManager(Manager manager) {
+        this.manager = manager;
+    }
+    
     public String getName() {
         return name;
     }

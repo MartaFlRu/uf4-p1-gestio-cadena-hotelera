@@ -17,8 +17,11 @@ public abstract class Person {
     public void setIdentifier(String identifier) {
         this.identifier = identifier;
     }
+    public Person(String name, String identifier) {
+        this.name = name;
+        this.identifier = identifier;
+    }
+
     
-    public Person() {
-    } 
     
 }
